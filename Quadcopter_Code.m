@@ -11,7 +11,7 @@ Ix = 4.856 * 10^-3;
 Iy = 4.856 * 10^-3;
 Iz = 8.801*10^-3;
 
-S = sim("trajfollow");
+S = sim("Quadcopter_Sim");
 
 figure(1)
 plot3(S.xd.data, S.yd.data, S.zd.data)
